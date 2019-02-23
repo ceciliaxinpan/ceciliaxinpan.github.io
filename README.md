@@ -1,3 +1,3 @@
-# ceciliaxinpan.github.com
+# ceciliaxinpan.github.io
 My home page:
-http://ceciliaxinpan.github.io
+https://ceciliaxinpan.github.io
