@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/themify-icons.css" />
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
     <!-- Google fonts - Roboto Condensed for headings, Open Sans for copy-->
     <link
@@ -27,6 +27,7 @@
     />
     <!-- theme stylesheet-->
     <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet" />
+    <link rel="stylesheet" href="css/stylish-portfolio.css" />
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="css/custom.css" />
     <!-- Favicon-->
@@ -44,7 +45,7 @@
       <div class="content">
         <div class="container clearfix">
           <div class="row">
-            <div class="col-md-8 col-md-offset-2 col-sm-12">
+            <div class="col-md-8 offset-md-2 col-sm-12">
               <p class="roboto">Welcome to my space</p>
               <h1>I am<br /><span class="bold">Xin Pan</span></h1>
               <p class="roboto">I design <span class="typy"></span>.</p>
@@ -59,27 +60,35 @@
     <!-- navbar-->
     <header class="header">
       <div class="sticky-wrapper">
-        <div role="navigation" class="navbar navbar-default">
+        <div role="navigation" class="navbar navbar-expand-md navbar-light">
           <div class="container">
-            <div class="navbar-header">
-              <button
-                type="button"
-                data-toggle="collapse"
-                data-target=".navbar-collapse"
-                class="navbar-toggle"
-              >
-                <span class="icon-bar"></span><span class="icon-bar"></span
-                ><span class="icon-bar"></span></button
-              ><a href="#intro" class="navbar-brand scroll-to"
-                ><img src="img/logo.png" alt=""
-              /></a>
-            </div>
+            <!-- <div class="navbar-header"> -->
+            <a href="#intro" class="navbar-brand scroll-to"
+              ><img src="img/logo.png" alt=""
+            /></a>
+            <button
+              type="button"
+              data-toggle="collapse"
+              data-target="#navigation"
+              class="navbar-toggler navbar-toggler-right"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- </div> -->
             <div id="navigation" class="collapse navbar-collapse">
-              <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#intro">Home</a></li>
-                <li><a href="#about">About </a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
+              <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#intro">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -228,7 +237,7 @@
       </div>
     </section>
     <!-- portfolio-->
-    <section id="portfolio" class="no-padding-bottom">
+    <!-- <section id="portfolio" class="no-padding-bottom">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -299,8 +308,78 @@
           </div>
         </div>
       </div>
+    </section> -->
+    <!-- Portfolio -->
+    <section class="content-section no-padding-bottom" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="heading">Portfolio</h2>
+          </div>
+        </div>
+        <!-- <div class="content-section-heading text-center">
+          <h3 class="text-secondary mb-0">Portfolio</h3>
+          <h2 class="mb-5">Recent Projects</h2>
+        </div> -->
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2 class="portfolio-heading">Stationary</h2>
+                  <p class="mb-0">
+                    A yellow pencil with envelopes on a clean, blue backdrop!
+                  </p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-1.jpg" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2 class="portfolio-heading">Ice Cream</h2>
+                  <p class="mb-0">
+                    A dark blue background with a colored pencil, a clip, and a
+                    tiny ice cream cone!
+                  </p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-2.jpg" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2 class="portfolio-heading">Strawberries</h2>
+                  <p class="mb-0">
+                    Strawberries are such a tasty snack, especially with a
+                    little sugar on top!
+                  </p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-3.jpg" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2 class="portfolio-heading">Workspace</h2>
+                  <p class="mb-0">
+                    A yellow workspace with some scissors, pencils, and other
+                    objects.
+                  </p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-4.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
-
     <!--contact-->
     <section id="contact">
       <div class="container clearfix">
@@ -430,7 +509,7 @@
     </footer>
     <!-- Javascript files-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
     <script src="js/jquery.scrollTo.min.js"></script>
     <script src="js/typed.js"></script>
