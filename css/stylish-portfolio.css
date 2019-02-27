@@ -273,17 +273,18 @@ h2.portfolio-heading {
 
 .portfolio-item .caption .caption-content {
   color: #fff;
-  margin: auto 2rem 2rem;
+  margin: auto 1rem 1rem;
 }
 
 .portfolio-item .caption .caption-content h2 {
   font-size: 0.8rem;
   text-transform: uppercase;
+  margin-bottom: 5px;
 }
 
 .portfolio-item .caption .caption-content p {
-  font-weight: 300;
-  font-size: 1.2rem;
+  font-weight: 200;
+  font-size: 1rem;
 }
 
 @media (min-width: 992px) {
@@ -301,7 +302,7 @@ h2.portfolio-heading {
     transition: opacity 0.25s;
     margin-left: 5rem;
     margin-right: 5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
   }
   .portfolio-item img {
     -webkit-transition: -webkit-clip-path 0.25s ease-out;
@@ -309,13 +310,13 @@ h2.portfolio-heading {
     clip-path: inset(-1px);
   }
   .portfolio-item:hover img {
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+    -webkit-clip-path: inset(1rem);
+    clip-path: inset(1rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+    background-color: rgba(31, 170, 212, 0.9);
+    -webkit-clip-path: inset(1rem);
+    clip-path: inset(1rem);
   }
 }
 
