@@ -134,7 +134,7 @@ $(window).resize(function() {
   }
 });
 
-$(function () {
+/*$(function () {
 
     // init the validator
     // validator files are included in the download package
@@ -178,4 +178,4 @@ $(function () {
             return false;
         }
     })
-});
+});*/

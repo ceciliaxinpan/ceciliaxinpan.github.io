@@ -310,11 +310,17 @@ p.social a i {
 p.social a.facebook {
   background-color: #4460ae;
 }
+p.social a.linkedin {
+  background-color: #0077b5;
+}
+p.social a.github {
+  background-color: #000000;
+}
 p.social a.gplus {
   background-color: #c21f25;
 }
 p.social a.twitter {
-  background-color: #3cf;
+  background-color: #38a1f3;
 }
 p.social a.instagram {
   background-color: #cd4378;
