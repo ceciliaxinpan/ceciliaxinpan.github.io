@@ -38,6 +38,7 @@ section {
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.08em;
+  text-align: center;
 }
 .heading {
   text-align: center;
@@ -292,8 +293,8 @@ p.social a {
   margin: 0 10px 0 0;
   color: #fff;
   display: inline-block;
-  width: 26px;
-  height: 26px;
+  width: 50px;
+  height: 30px;
   border-radius: 13px;
   line-height: 26px;
   font-size: 15px;
@@ -305,7 +306,7 @@ p.social a {
 }
 p.social a i {
   vertical-align: bottom;
-  line-height: 26px;
+  line-height: 30px;
 }
 p.social a.facebook {
   background-color: #4460ae;
