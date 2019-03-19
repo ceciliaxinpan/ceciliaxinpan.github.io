@@ -314,7 +314,7 @@ h2.portfolio-heading {
     clip-path: inset(1rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(31, 170, 212, 0.9);
+    /* background-color: rgba(31, 170, 212, 0.9); */
     -webkit-clip-path: inset(1rem);
     clip-path: inset(1rem);
   }
