@@ -38,7 +38,7 @@ function sticky() {
 
 $(document).ready(function() {
   $(".typy").typed({
-    strings: ["interface", "instruction", "experience"],
+    strings: ["Data Science", "UX Research", "Web Development"],
     typeSpeed: 45,
     backSpeed: 35,
     showCursor: false,
